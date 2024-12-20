@@ -10,7 +10,7 @@ if len(sys.argv) > 1:
 else:
     file_path = 'teste.txt.ransomwaretroll'
 
-# Abrir e ler o conteúdo do arquivo
+# Abrir e ler o conteudo do arquivo
 file = open(file_path, 'rb')
 file_data = file.read()
 file.close()

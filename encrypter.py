@@ -10,7 +10,7 @@ if len(sys.argv) > 1:
 else:
     file_path = 'teste.txt'
 
-# Abre e le o conteúdo do arquivo
+# Abre e le o conteudo do arquivo
 file = open(file_path, 'r+')
 file_data = file.read()
 
